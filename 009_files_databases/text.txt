@@ -1,0 +1,7 @@
+Homebrew is the easiest and most flexible way to install the UNIX tools Apple didn’t include with OS X.
+
+The installation instructions will get you started.
+
+After that, learn more with brew help, man brew or the FAQ.
+
+Note that version is not 1.0 yet. We may break some stuff and some things may be less than perfect. However generally it works great, we’re just setting your expectations a bit lower so you don’t troll us. Thanks.

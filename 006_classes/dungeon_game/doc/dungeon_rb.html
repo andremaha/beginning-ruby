@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=IBM866" http-equiv="Content-Type" />
+
+  <title>File: dungeon.rb [RDoc Documentation]</title>
+
+  <link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet" />
+
+  <script src="./js/jquery.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript"
+    charset="utf-8"></script>
+</head>
+
+<body class="file file-popup">
+  <div id="metadata">
+    <dl>
+      <dt class="modified-date">Last Modified</dt>
+      <dd class="modified-date">2012-02-12 12:48:07 +0100</dd>
+
+      
+      <dt class="requires">Requires</dt>
+      <dd class="requires">
+        <ul>
+        
+        </ul>
+      </dd>
+      
+
+      
+    </dl>
+  </div>
+
+  <div id="documentation">
+    
+    <div class="description">
+      <h2>Description</h2>
+      
+<h1>A <a href="Dungeon.html">Dungeon</a> Text Adventure </h1>
+
+<h2>History</h2>
+
+<p>Text adventures were popular in the <em>1980s</em>, but have fallen out of
+favor with modern gamers seeking grafical thrills. They're *perfect
+playgrounds* for experimenting with classes and objects, though, as
+replicating the real world in a virtual form requires a complete
+understanding of mapping real-world concepts into classes.</p>
+
+<h2>Additional Info</h2>
+
+<p><a
+href="http://en.wikipedia.org/wiki/Adventure_game">en.wikipedia.org/wiki/Adventure_game</a></p>
+
+<h2>Classes Structure</h2>
+<ul><li>
+<p><a href="Dungeon.html">Dungeon</a></p>
+<ul><li>
+<p>Player</p>
+</li><li>
+<p>Room</p>
+</li></ul>
+</li></ul>
+
+<h2>Examples</h2>
+
+<pre>my_dungeon = Dungeon.new('Andrey')
+my_dungeon.add_room(:largecave, 'Large Cave', 'a large cavernous cave', {:west =&gt; :smallcave})
+my_dungeon.add_room(:smallcave, 'Small Cave', 'a small, claustrophobic cave', {:east =&gt; :largecave, :south =&gt; :scraycave, :north =&gt; :happycave})
+my_dungeon.add_room(:scarycave, 'Scary Cave', 'a very scary room with bloody walls', {:norh =&gt; :smallcave})
+my_dungeon.add_room(:happycave, 'Happy Cave', 'a cozy room with the table full of food and drinks', {:south =&gt; :smallcave})
+my_dungeon.start(:smallcave)</pre>
+
+<p>A general class that encapsulates the entire concept of the dungeon game.</p>
+
+    </div>
+    
+  </div>
+</body>
+</html>
+

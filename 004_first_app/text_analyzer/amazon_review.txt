@@ -1,0 +1,22 @@
+This book was good, if a little out-dated. It provides a solid base of information regarding Ruby, but as of September, 2010, the information it provides on Ruby 1.9 is limited and sometimes incorrect. 
+
+This is not to say that it is a bad book, however. Considering that Ruby 1.9 was only recently begun when this version of the book, version two, was published, one cannot set the blame on the author, Peter Cooper, for the incorrect information, especially as Mr. Cooper is one of the leading sources of knowledge regarding Ruby (via his blog at rubyinside.com). 
+
+Despite the occasional bits of incorrect or lacking information concerning Ruby 1.9, the book itself provides a wealth of information regarding Ruby in general. It focuses primarily on Ruby 1.8, and the overwhelming majority of the code which powers Ruby 1.8 is transferable to Ruby 1.9. 
+
+My biggest complaint concerning the book was the lack of examples it has. While Mr. Cooper provides a true wealth of information, the examples were often small and rarely built upon previous material until one reaches chapter 12, at which point one builds an entire application. Even once one reaches this chapter, the code is not always the easiest to work with, as the code typed out in the book may have a minor change in it which will be difficult to locate to update in your own code if you do not already have a solid grasp on the material presented earlier in the book. 
+
+Additionally, in chapter 13, Mr. Cooper gives a basic look at Ruby on Rails, the currently-leading Ruby Framework. 
+
+Unfortunately, from the very first line of code typed in regarding Ruby on Rails, the code is incorrect. Cooper's Beginning Ruby was written prior to the release of Rails 3.0, which has introduced a myriad of changes to syntax. 
+
+It will not hurt a person to simply skim over the chapter on Ruby frameworks to learn a general gist of information concerning them, but do not expect the code there offered to be of any use to you. 
+
+Simply said, if you are looking to learn Ruby, this is an excellent book to start with if you pick up on information by reading and hearing better than you do with examples and seeing. If you prefer to see more than hear, this would be a good second book to go with, once you have a basic level of experience with Ruby. 
+
+I fully intend to read through Cooper's Beginning Ruby again once I've a stronger grasp on the language, and feel it is a good choice to truly solidify one's understanding of the language. 
+
+However, do not be surprised when some of the Ruby 1.9 information is incorrect, and do not be surprised at the no-longer-functioning code dealing with Ruby on Rails. 
+
+My recommendation regarding Peter Cooper's Beginning Ruby, Second Version: 
+Go for it. It is a solid book for learning Ruby, but do not be wholly surprised when this particular version has become obsolete in the future. I would hope to see a third version, updated for Ruby 1.9, with general information regarding Rails 3.0, to become available in the early- or mid-parts of 2011, but until then, this is a solid book to start with.
